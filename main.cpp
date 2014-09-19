@@ -2,15 +2,8 @@
 
 using namespace std;
 
+void exchange(int&, int&);
 
-void exchange(int &x, int &y)
-{
-    int temp=x;
-    x=y;
-    y=temp;
-
-
-}
 int main()
 {
     int a,b;
@@ -18,4 +11,12 @@ int main()
     exchange(a,b);
     cout <<"a: "<< a << "b: "<< b  << endl;
     return 0;
+}
+void exchange(int &x, int &y)
+{
+    int temp=x;
+    x=y;
+    y=temp;
+
+
 }
