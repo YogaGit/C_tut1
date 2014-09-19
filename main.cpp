@@ -7,7 +7,9 @@ void exchange(int&, int&);
 int main()
 {
     int a,b;
-    a=1; b=2;
+    cin >> a;
+    cin >> b;
+    //a=1; b=2;
     exchange(a,b);
     cout <<"a: "<< a << "b: "<< b  << endl;
     return 0;
