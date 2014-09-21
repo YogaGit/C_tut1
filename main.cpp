@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cmath>
+#include <vector>
+#include <string>
+#include "Test_class1.h"
 
 using namespace std;
 
@@ -37,9 +40,13 @@ void ex_6(){
     cout << sum << endl;
 }
 
+void ex_26(){
+
+}
+
 int main()
 {
-ex_6();
+
 
 }
 

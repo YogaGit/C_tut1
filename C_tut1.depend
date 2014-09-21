@@ -1,4 +1,14 @@
 # depslib dependency file v1.0
-1411153548 source:/media/Exchange/Test_Programs/C_tut1/main.cpp
+1411303061 source:/media/Exchange/Test_Programs/C_tut1/main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<string>
+	"Test_class1.h"
+
+1411303053 /media/Exchange/Test_Programs/C_tut1/Test_class1.h
+
+1411303722 source:/media/Exchange/Test_Programs/C_tut1/Test_class1.cpp
+	"Test_class1.h"
 	<iostream>
 
